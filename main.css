@@ -1,0 +1,75 @@
+body{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.navbar{
+    flex: 1;
+    background-color: aqua;
+}
+.d1{
+    display: flex;
+    flex-direction: column;;
+    flex: 8;
+    background-color: rgb(50, 152, 152);
+}
+.l1{
+    display: flex;
+    flex: 1;
+    gap: 5px;
+    margin-top: 3px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.l2{
+    display: flex;
+    flex: 1;
+    gap: 5px;
+    margin-top: 3px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.l3{
+    display: flex;
+    flex: 1;
+    gap: 5px;
+    margin-top: 3px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.l4{
+    display: flex;
+    flex: 1;
+    gap: 5px;
+    margin-top: 3px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.l5{
+    display: flex;
+    flex: 1;
+    gap: 5px;
+    margin-top: 3px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.l6{
+    display: flex;
+    flex: 1;
+    gap: 5px;
+    margin-top: 3px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.d2 {
+    flex: 5;
+    background-color: rgb(10, 177, 10);
+    display: grid;
+    grid-template-columns: repeat(9, 1fr); /* 9 buttons per row */
+    justify-content: center; /* Center the grid */
+    align-items: center;
+    align-content: center;
+    background-color: rgb(10, 177, 10);
+    padding: 20px;
+}
